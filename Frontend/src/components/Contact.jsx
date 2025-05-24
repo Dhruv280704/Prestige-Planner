@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://prestige-planner.onrender.com/api/v1/message/send",
+        "https://prestige-planner.onrender.com/api/v1/message/send",
         {
           name,
           email,
